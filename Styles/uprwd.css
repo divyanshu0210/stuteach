@@ -1,0 +1,15 @@
+ * {
+    box-sizing:border-box;
+}   
+[class *="col-"]
+{
+	float:left;
+	padding:15px;
+}
+
+.row ::after {
+	content:"";
+	clear:both;
+	display:table;
+
+}
