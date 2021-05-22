@@ -1,6 +1,11 @@
 .link{
 	text-decoration:none;
 	color:white;
+	display:block;
+/*	padding:8px 25px;
+	background-color:black;
+	margin:auto;
+	text-align:center;  */
 	}
 			
 .navbar{
@@ -18,7 +23,7 @@
 		
 	}
 .navbar li {
-   padding: 8px;
+   padding: 8px ;
    /*width: 33.3%;*/
 /* width:100% */
    margin: 0px;
@@ -26,10 +31,11 @@
    color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   float : left; 
-   /*display: inline-block;*/
+   display: inline-block;
    text-decoration:none;
    text-align:center;
   border: 1px solid white;
+  cursor:pointer ;
 /*
 border-radius:5px;
 */
